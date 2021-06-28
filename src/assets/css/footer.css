@@ -1,0 +1,20 @@
+.footer {
+    background: #c3baba;
+    padding: 10px;
+}
+
+.footer .point {
+    padding-top: 10px
+}
+
+.footer__copyright {
+    padding: 10px 0;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.footer__contact {
+    font-style: italic;
+    font-weight: bold;
+}
+

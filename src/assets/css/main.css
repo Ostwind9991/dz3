@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+@import "reset.css";
+@import "menu.css";
+@import "footer.css";
+
+body {
+    font-family: Arial, sans-serif;;
+    font-style: normal;
+}
+
+.body {
+    font-size: 1.2em;
+    line-height: 1.7rem;
+}
+
+.body__topic {
+    padding: 50px 0 50px 0;
+    font-family: 'PT Serif', serif;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.body > .body__title {
+    font-weight: 600;
+}
+
+.body__topic, .footer__copyright {
+    text-align: center;
+}
+
+.body__paragraph {
+    margin: 10px 0;
+}
+
+.body__title {
+    color: #778498;
+    font-weight: 400;
+    padding: 24px 0;
+}
+
+.body__quote {
+    font-style: italic;
+    padding: 0 220px 0 220px;
+}
+
+.image-banner {
+    padding: 0 20px 0 20px;
+    float: left;
+}
+
+.body__text {
+    padding: 8px 0;
+    text-indent: 1.2em;
+}
+
+.body__title + .body__text {
+    text-indent: 0;
+}
+
+.body__title + .body__text::first-letter {
+    font-size: 2em;
+    color: red;
+    float: left;
+    margin: 0 4px 2px 0;
+    text-indent: 0;
+}
+
+.point {
+    color: #0b2460;
+    font-weight: 600;
+}
+
+.monuments > .point {
+    color: #323232;
+    font-weight: 200;
+    padding: 8px 50px;
+}
+
+.monuments > .point::before {
+    content: "\270E ";
+    color: crimson;
+    padding-right: 8px;
+}
